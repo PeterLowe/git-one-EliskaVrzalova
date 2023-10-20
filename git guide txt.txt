@@ -3,12 +3,17 @@ by eliska vrzalova
 Git guide
 By Eliska Vrzalova
 
+Git guide
+By Eliska Vrzalova
+
+Git guide
+By Eliska Vrzalova
+
 Git init
 Git initialize a new empty repository, we are now on the master branch.
 After we do git init command .git folder is created in the folder where  we have initialized our repository.
 We can initialize our repository on local machine (this case) or we cand initialize our repository through GitHub 
 Repository can be initialized (using command git init) only once, if we initialized our repository through GitHub and want to start in on desktop on local machine, we need to use git clone and paste the URL of our repository from GitHub
-
 
 
 
@@ -29,5 +34,47 @@ Command gist status lists files.
 It shows me whether the files are modified, untracked, added
 It list files on the branch we are on at the moment (master in this case)
 If git status shows me untracked files and I want hem to be tracked, I use git add command
+ 
+
+Git commit
+Git commit command creates a new revision point on local repository. It is saving changes
+It creates a snapshot of the staged changes – for example in the screenshot I can see that I have added 4 files so far
+Words after – m are comment, a label for this commit that needs to be in “ “ if it contains spaces.
+
+
+Git remote
+Command git remote is making your repository visible on github. Until now all of my git work was on my local one drive. Things that are remote are on Github server.
+It allows me to save my work else where than on my local machine.
+Remote= remote repository
+Origin = the default name of the remote repository on Github
+Master = the default name of the initial brach of a repository
+Origin master = default branch of repository on github
+
+
+
+Git push
+Updates the remote repository on Github.
+We should push everytime we want to share the piece of work we have done with others. Good thing is also push small and often
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
 
