@@ -1,0 +1,33 @@
+git guide 
+by eliska vrzalova
+Git guide
+By Eliska Vrzalova
+
+Git init
+Git initialize a new empty repository, we are now on the master branch.
+After we do git init command .git folder is created in the folder where  we have initialized our repository.
+We can initialize our repository on local machine (this case) or we cand initialize our repository through GitHub 
+Repository can be initialized (using command git init) only once, if we initialized our repository through GitHub and want to start in on desktop on local machine, we need to use git clone and paste the URL of our repository from GitHub
+
+
+
+
+
+Git add
+Git add command adds files in the working directory to the stages area.
+If we have added .gitignore file git add command excluded those files that match lines from .gitignore file
+Git add . – adds all the files
+Git add filename (for ex. git guide txt.txt) – adds only the file we stated in the command.
+If I modify my file after I added it – I should add them again and git will ignore the previous version of that file
+In the screen shots I did git status first so I can see which files are not tracked by git (red color).
+After I added the files and did git status again I was able to see that the file are now tracked and Git knows about them (green color).
+ 
+
+
+Git status
+Command gist status lists files.
+It shows me whether the files are modified, untracked, added
+It list files on the branch we are on at the moment (master in this case)
+If git status shows me untracked files and I want hem to be tracked, I use git add command
+ 
+
