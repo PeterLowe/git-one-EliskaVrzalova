@@ -2,11 +2,15 @@
 Git guide
 By Eliska Vrzalova
 
+Git guide
+By Eliska Vrzalova
+
 Git init
 Git initialize a new empty repository, we are now on the master branch.
 After we do git init command .git folder is created in the folder where  we have initialized our repository.
 We can initialize our repository on local machine (this case) or we cand initialize our repository through GitHub 
 Repository can be initialized (using command git init) only once, if we initialized our repository through GitHub and want to start in on desktop on local machine, we need to use git clone and paste the URL of our repository from GitHub
+
 
 
 
@@ -45,14 +49,56 @@ Master = the default name of the initial brach of a repository
 Origin master = default branch of repository on github
 
 
+
+
 Git push
 Updates the remote repository on Github.
 We should push everytime we want to share the piece of work we have done with others. Good thing is also push small and often
 
 
+
+
+
 Git branch
 Git branch command creates a new branch. We need to type in git branch and name of the new branch. I have named it newBranch. My command looked like : git branch newBranch.
 Now I have to branched – master and newBranch
+
+
+
+Git checkout
+Makes the node the current head.
+Very similar to switch command. In my screenshot I switch from newBranch to master and back. I did a git commit command before switching because I had changes on my master branch at the moment I wanted to switch to newBranch. – it ensured that the working directory matched the node
+This command will not work if there are modified files
+
+
+Git merge
+This command takes content from one branch and merge it into another branch. These branches still remain separate it is not like they become one.
+There can be a merge conflict (for ex when 2 people were working separately and both of them created a variable of the same name- git then does not know what to do what to choose)
+We should merge small and often.
+We should merge only when it is ready for everyone to do so.
+
+
+Git log
+This command displays entire commit history. We can see all the git commit commands we have done so far.
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
